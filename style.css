@@ -1,0 +1,119 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #101005;
+}
+
+/* Information button */
+#circle {
+    position: fixed;
+    z-index: 10;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 165, 0, 0.25);
+    font-size: 42px;
+    font-family: "Times New Roman", serif;
+    color: rgba(255, 165, 0, 1);
+    cursor: pointer;
+    transition:
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+/* Information panel */
+#info {
+    position: fixed;
+    z-index: 9;
+    top: 20px;
+    right: 95px;
+    width: 0;
+    height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    background: rgba(20, 15, 5, 0.95);
+    color: #fff3c4;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    transition:
+        width 0.5s ease,
+        height 0.5s ease,
+        padding 0.5s ease;
+}
+
+#info h2 {
+    margin: 0 0 12px;
+    color: orange;
+}
+
+#info p {
+    margin: 8px 0;
+    /* line-height: 1.5; */
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: orange;
+}
+
+/* body {
+    overflow: hidden;
+    margin: 0;
+}
+
+#circle {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(255, 165, 0, 0.25);
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: rgba(255, 165, 0, 1);
+    cursor: pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: orange;
+} */
